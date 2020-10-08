@@ -18,9 +18,9 @@ public class TestConfig implements CommandLineRunner {
 	
 	@Override
 	public void run(String... args) throws Exception {
-		Aluno a1 = new Aluno(null, "Gabriel", "Zika", "ComeçoDosTempos", 33);
-		Aluno a2 = new Aluno(null, "Pedro", "Montesquieu", "07/10/2000", 48);
-		Aluno a3 = new Aluno(null, "Roger", "Menezes", "17/09/1989", 51);
+		Aluno a1 = new Aluno(null, "Gabriel", "Aparecido", "06/11/2001", 33);
+		Aluno a2 = new Aluno(null, "Leonardo", "Araújo", "02/01/2001", 48);
+		Aluno a3 = new Aluno(null, "Gustavo", "Souza", "30/05/2001", 51);
 		
 		alunoRepository.saveAll(Arrays.asList(a1, a2, a3));
 	}
